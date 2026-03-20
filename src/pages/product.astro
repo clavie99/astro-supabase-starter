@@ -1,0 +1,69 @@
+---
+import Layout from "../components/Layout.astro";
+---
+
+<Layout title="Product">
+  <section class="mb-12">
+    <h1 class="mb-4 text-4xl font-bold">产品页</h1>
+    <p class="max-w-3xl text-neutral-200 leading-7">
+      这是一个基于 Astro、Netlify 与 Supabase 的全栈示例产品，目标是帮助团队快速搭建可部署、可扩展、可持续迭代的现代 Web 应用。通过模板化能力，开发者可以把更多精力放在业务逻辑，而不是重复的基础设施配置。
+    </p>
+  </section>
+
+  <section class="mb-10">
+    <h2 class="mb-4 text-2xl font-semibold">产品概述</h2>
+    <div class="p-6 border rounded-md bg-neutral-900/60 border-neutral-600">
+      <p class="leading-7 text-neutral-100">
+        产品以“快速上线 + 数据驱动 + 云端部署”为核心，提供从前端页面、服务端接口到数据库读写的一体化实践。它既适合技术验证（PoC），也适合作为生产项目的基础骨架，能够显著降低项目冷启动成本。
+      </p>
+    </div>
+  </section>
+
+  <section class="mb-10">
+    <h2 class="mb-4 text-2xl font-semibold">产品功能</h2>
+    <div class="grid gap-4 sm:grid-cols-2">
+      <article class="p-5 border rounded-md bg-neutral-900/60 border-neutral-600">
+        <h3 class="mb-2 text-lg font-semibold">实时数据展示</h3>
+        <p class="text-sm leading-6 text-neutral-200">
+          通过 Supabase 获取并展示业务数据，可按规则排序、渲染列表并支持动态更新。
+        </p>
+      </article>
+      <article class="p-5 border rounded-md bg-neutral-900/60 border-neutral-600">
+        <h3 class="mb-2 text-lg font-semibold">服务端接口能力</h3>
+        <p class="text-sm leading-6 text-neutral-200">
+          内置 API 路由示例，可承载点赞、统计等服务端操作，便于扩展为完整业务接口。
+        </p>
+      </article>
+      <article class="p-5 border rounded-md bg-neutral-900/60 border-neutral-600">
+        <h3 class="mb-2 text-lg font-semibold">部署与运行一致性</h3>
+        <p class="text-sm leading-6 text-neutral-200">
+          结合 Netlify 本地开发与线上部署流程，减少环境差异导致的问题。
+        </p>
+      </article>
+      <article class="p-5 border rounded-md bg-neutral-900/60 border-neutral-600">
+        <h3 class="mb-2 text-lg font-semibold">引导式上手文档</h3>
+        <p class="text-sm leading-6 text-neutral-200">
+          项目包含数据库连接与数据读取指南，新成员可快速完成环境准备与功能验证。
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="mb-16">
+    <h2 class="mb-4 text-2xl font-semibold">产品优势</h2>
+    <ul class="space-y-3 text-neutral-100">
+      <li class="p-4 border rounded-md bg-neutral-900/60 border-neutral-600">
+        快速落地：开箱即用的模板减少重复搭建工作。
+      </li>
+      <li class="p-4 border rounded-md bg-neutral-900/60 border-neutral-600">
+        技术栈现代：Astro + Supabase + Netlify 的组合兼顾性能与开发效率。
+      </li>
+      <li class="p-4 border rounded-md bg-neutral-900/60 border-neutral-600">
+        易于扩展：可平滑增加新页面、数据表、API 及部署配置。
+      </li>
+      <li class="p-4 border rounded-md bg-neutral-900/60 border-neutral-600">
+        学习成本低：示例结构清晰，适合团队共享开发规范与实践。
+      </li>
+    </ul>
+  </section>
+</Layout>
